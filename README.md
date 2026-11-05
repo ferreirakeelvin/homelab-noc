@@ -55,17 +55,31 @@ homelab-noc/
 
 ## Escopo atual
 
-- [x] Host Debian 13 com KVM/QEMU.
-- [x] Servidor Zabbix 7.0.
-- [x] Monitoramento do equipamento físico Debian.
-- [x] Monitoramento de servidor Debian.
-- [x] Monitoramento de servidor Rocky Linux.
-- [x] Monitoramento de Windows Server 2025.
-- [x] Monitoramento de Windows 10 IoT Enterprise LTSC 2021.
-- [ ] Dashboard operacional NOC.
-- [ ] Triggers e definição de severidades.
-- [ ] Simulações de incidentes.
-- [ ] Runbooks de atendimento e troubleshooting.
+### Implementado
+
+- [x] Host Debian 13 com KVM/QEMU/libvirt.
+- [x] Servidor Zabbix 7.0 com MariaDB e Apache.
+- [x] Integração dos cinco hosts: Samsung N150P, Debian Server, Rocky Linux, Windows Server 2025 e Windows 10 IoT Enterprise LTSC 2021.
+- [x] Instalação e configuração dos agentes Zabbix.
+- [x] Associação dos templates Linux e Windows.
+- [x] Comunicação e coleta de métricas validadas nos equipamentos ligados.
+- [x] Consulta de métricas em Latest data.
+- [x] Criação do dashboard Monitoramento NOC.
+- [x] Identificação e inspeção das triggers existentes.
+- [x] Documentação da infraestrutura, mapa e inventário.
+- [x] Capturas de evidências do Zabbix organizadas em `evidencias/zabbix/`.
+
+### Em validação
+
+- [ ] Validar o comportamento das triggers, limiares e severidades.
+- [ ] Testar detecção, geração de eventos e recuperação após normalização.
+- [ ] Revisar e aprimorar a organização visual do dashboard, quando necessário.
+
+### Pendências
+
+- [ ] Executar simulações controladas de incidentes.
+- [ ] Documentar procedimentos operacionais (runbooks).
+- [ ] Registrar cenários de troubleshooting e respectivas soluções.
 
 ## Segurança e privacidade
 
