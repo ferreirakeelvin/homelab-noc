@@ -52,6 +52,7 @@ homelab-noc/
 
 - [Mapa da infraestrutura](docs/infraestrutura/mapa-da-infraestrutura.md)
 - [Inventário técnico](docs/infraestrutura/inventario.md)
+- [Runbook — QEMU Guest Agent no Windows 10](docs/troubleshooting/qemu-guest-agent-windows10.md)
 
 ## Escopo atual
 
